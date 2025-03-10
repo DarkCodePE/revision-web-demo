@@ -1,0 +1,452 @@
+
+
+
+
+/*  Theme Responsive Css */
+/*@media(max-width:1500){
+    .navbar-nav > li {
+        margin-right: 1vw !important;
+        height: 94px;
+        border:1px solid red;
+    }
+}*/
+.importanteBox {
+    border:1px solid #55fcfc;
+    border-radius: 20px;
+    padding:10px 20px;
+    background:#cfffff;
+    margin-right: -15px;
+}
+.tipoCombustible {
+    margin-top:-10px;
+    /*border: 1px solid #cdcdcd;*/
+    padding: 10px 20px;
+    border-radius: 17px;
+    /*margin-left: -10px;*/
+    /*margin-right: -10px;*/
+}
+.caracteristicas {
+    margin-top:-10px;
+    /*border: 1px solid rgb(250, 212, 144);*/
+    padding: 10px 20px;
+    /*background:rgb(255, 245, 227);*/
+    border-radius: 17px;
+    /*margin-left: -10px;*/
+    /*margin-right: -10px;*/
+}
+@media(min-width:1200px){
+
+    .paddingCheckOut {
+        padding:10px 20px;
+    }
+    .tipoCombustible {
+        margin-top:-10px;
+        border: 1px solid #cdcdcd;
+        padding: 10px 20px;
+        border-radius: 17px;
+    }
+    .caracteristicas {
+        margin-top:-10px;
+        /*border: 1px solid rgb(250, 212, 144);*/
+        padding: 10px 20px;
+        background:rgb(255, 245, 227);
+        border-radius: 17px;
+    }
+    .facturacion h5 {
+        margin-bottom:10px !important;
+    }
+    .customPaddingRight {
+        padding-right: 2px;
+    }
+    .customPaddingLeft {
+        padding-left: 2px;
+    }
+    .both {
+        /*width:80%;*/
+    }
+    .btnPagar {
+        padding: 10px 50px !important;
+        /*margin-top: 5px;*/
+        width: 80% !important;
+        margin-top:50px;
+        margin:auto;
+        display:block;
+    }
+
+    .customImgPayme {
+        width:50%;
+    }
+    .boxDatos {
+        border:none !important;
+        padding:0px !important;
+    }
+    .customMontoPC {
+        text-align: right !important;
+    }
+    .navbar-nav > li {
+        margin-right: 2vw !important;
+        height: 94px;
+        /*border:1px solid red;*/
+    }
+
+    /*    .boxFormulario {
+            z-index: 10000;
+            position: absolute;
+            top: 18%;
+        }*/
+    .customLogo {
+        margin-top: 4px;
+        height: 70px;
+    }
+    .textRTP {
+        width: 730px;
+        left: 40px;
+        position: relative;
+        top: 12px;
+    }
+    .boxDatos {
+        margin-top: 0px !important;
+    }
+
+    .boxDatos {
+        padding-top: 0px;
+        padding: 3px;
+        padding-bottom: 0px;
+        background: transparent !important;
+    }
+
+
+}
+
+
+
+@media (min-width: 744px) and (max-width: 1382px) {
+    .boxFormulario {
+        transform: scale(0.87);
+        bottom: 7.5% !important;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+
+
+
+    .imgRTP {
+        position: absolute;
+        bottom: 10px;
+        left: -71px;
+        width: 40vw !important;
+        z-index: 10;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        background-color: #000000b8;
+        position: absolute;
+        right: 1%;
+        top: 5vh;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #ffc527;
+        border-style: solid;
+        border-color: #ffc527;
+        border-width: 1px;
+
+    }
+    .navbar-collapse {
+        border-top: 1px solid yellow;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        top: 40px;
+        position: relative;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+
+
+
+}
+
+/*@media only screen and (max-width: 599px){
+
+
+}*/
+
+@media only screen and (max-width: 499px) {
+    #hero {
+        margin-top: 470px;
+        /*margin-bottom: -465px;*/
+    }
+    .boxRequisitoPage {
+        padding: 50px 10px !important;
+    }
+    .boxRequisitos {
+        margin-bottom: 135px !important;
+    }
+    .tp-bgimg {
+        /*background-position: left top -15px !important;*/
+        /*background-size: 235% !important;*/
+    }
+    .rev_slider_wrapper {
+        position: relative;
+        z-index: 0;
+        top: 46px;
+    }
+    .ruletaSuerte {
+        position: absolute;
+        z-index: 100;
+        left: -160px !important;
+        top: -141px !important;
+        transform: scale(0.5) !important;
+        background: yellow;
+        padding: 30px 100px;
+        display: none;
+    }
+    .rev_slider_wrapper {
+        height: 29vh !important;
+    }
+    .rev_slider_wrapper {
+        display:none;
+
+    }
+    .botonGirar {
+        bottom: 150px !important;
+        left: 30px !important;
+        transform: scale(0.7);
+    }
+
+    .rev_slider > ul, .rev_slider_wrapper > ul, .tp-revslider-mainul > li, .rev_slider > ul > li, .rev_slider > ul > li::before, .tp-revslider-mainul > li::before, .tp-simpleresponsive > ul, .tp-simpleresponsive > ul > li, .tp-simpleresponsive > ul > li::before, .tp-revslider-mainul > li, .tp-simpleresponsive > ul > li {
+        /*height: 150% !important;*/
+
+    }
+    /*    #slider1 {
+            height: 495px !important;
+        }
+        #slider1 .tp-bgimg {
+            background-position: right;
+        }*/
+    .wrapperFormulario {
+        width: 122% !important;
+        left: -41px;
+        top: -500px !important;
+        background-image: url('../../images/backAmarillo.jpg');
+    }
+    .textPagaoOnline {
+        padding-top: 10px;
+        margin-bottom: -8px;
+    }
+    .customRevision {
+        display:none;
+    }
+    .back14Plantas {
+        width: 100%;
+    }
+    /*    .backRequisitos {
+            margin-top: -165px !important;
+        }*/
+    .boxFormBotonX {
+        display: block !important;
+        position: absolute;
+        top: 20px !important;
+        right: 10px;
+        width: 50px;
+        cursor: pointer;
+    }
+    .boxFormulario1 {
+        left: 6% !important;
+        top: 10px !important;
+        z-index: 10;
+        background: #fff;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-image: none;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-size: 87% !important;
+        background-position: top 40px left 20px !important;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px -10px #000;
+        width: 88% !important;
+        height: 480px !important;
+    }
+
+    .boxFormulario2 {
+        left: 6% !important;
+        top: 10px !important;
+        z-index: 10;
+        background: #fff;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-image: none;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-size: 87% !important;
+        background-position: top 40px left 20px !important;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px -10px #000;
+        width: 88% !important;
+        height: 480px !important;
+    }
+
+    .bg-overlay::before {
+        background: #ffffff !important;
+    }
+    .modal-lg {
+        width: 95% !important;
+        margin-top: 20px !important;
+    }
+    #showImagen {
+        width: 100%;
+        /*position: absolute;*/
+        /*top: 120px;*/
+        display: block;
+        z-index: 100;
+    }
+    .mensajeRTP {
+        display:none;
+    }
+    .customDatos  {
+        margin-bottom:30px;
+    }
+    .tipoCombustible {
+        margin-top:-10px;
+        /*border: 1px solid #cdcdcd;*/
+        padding: 10px 20px;
+        border-radius: 17px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .caracteristicas {
+        margin-top: 0px;
+        /*border: 1px solid rgb(250, 212, 144);*/
+        padding: 10px 20px;
+        /*background:rgb(255, 245, 227);*/
+        border-radius: 17px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .WrapperFinalizar img {
+        text-align: center;
+        margin:auto;
+        display:block;
+        float: none !important;
+    }
+    .WrapperFinalizar h3 {
+        margin-top: 5px;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+        /*        margin-bottom: 40px;*/
+    }
+    .facturacion h5 {
+        padding: 5px 20px;
+        border-radius: 0px !important;
+        text-align: center;
+        margin-top: 15px !important;
+    }
+    .WrapperFinalizar h2 {
+        color: #000000;
+        font-size: 22px;
+        font-weight: bolder;
+        margin-top: 20px !important;
+        text-align: center;
+        margin-bottom: 20px;
+        line-height: 25px ;
+    }
+    .iconWaze {
+        margin-top:15px !important;
+        margin-bottom: 15px !important;
+    }
+    .backRequisitos {
+        background-image: none !important;
+        padding: 30px 10px !important;
+    }
+    .backRequisitosHome {
+        padding-top: 130px !important;
+        padding-bottom: 0px !important;
+    }
+    #reservar {
+        position: absolute;
+        bottom: 10px;
+        left: 11px !important;
+        font-size: 15px ;
+        padding-right: 15px;
+    }
+    /*    #pagar {
+            position: absolute;
+            bottom: -90px;
+            right: 20px !important;
+            font-size: 15px;
+            width: 90%;
+        }*/
+    .boxDatosXX {
+        text-align: right;
+    }
+    .customPaddingRight {
+        padding-right: -8px;
+    }
+    .customPaddingLeft {
+        padding-left: -8px;
+    }
+    .customDatos {
+        margin-top:15px;
+    }
+    .customMontoPC {
+        margin-top:15px
+    }
+    .textReserva {
+        width: 220px !important;
+        margin-bottom: 1px;
+        margin-top: -12px;
+    }
+
+}
+
+@media only screen and (max-width: 399px){
+
+
+}
+
+
+@media only screen and (max-width: 991px){
+
+
+}
+

@@ -1,0 +1,615 @@
+
+<!DOCTYPE html>
+<html>
+
+    
+<!-- Mirrored from www.revisionestecnicasdelperu.com/pagosizipay/checkout.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Mar 2025 01:14:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Last-Modified" content="0">
+        <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--IE Compatibility Meta-->
+        <meta name="author" content="../index.html" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="google-site-verification" content="" />
+        <link rel="canonical" href="../index.html" itemprop="url">
+        <link rel="publisher" href="#" />
+        <meta property="og:title" content="" />
+        <meta property="og:url" content="../index.html" />
+        <meta property="og:image" content="../assets/images/revisiones-tecnicas-del-peru.jpg" />
+        <meta name="Language" content="Ingles,Castellano">
+        <meta name="revisit-after" content="2 days" />
+        <meta name="robots" content="noodp, index, follow, all">
+        <meta content="rating" name="general">
+        <meta name="distribution" content="global" />
+        <meta http-equiv="Pragma" content="cache" />
+        <link rel="shortcut icon" type="image/png" href="../assets/images/favicon.png">
+        <!-- Fonts
+              ============================================= -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:100,200,300,400,500,600,700,800%7CDroid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+        <!-- Stylesheets
+              ============================================= -->
+        <link href="../assets/css/external.css" rel="stylesheet">
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../assets/css/style.css" rel="stylesheet">
+
+
+        <style>
+            .centered-container {
+                display: flex;
+                justify-content: center;
+            }
+
+            /* Agrega estilos adicionales si lo deseas */
+            label {
+                margin: 0 10px; /* Espaciado entre los radio buttons y sus etiquetas */
+            }
+            .text_procentaje {
+                background: #FEC828;
+                color: #000;
+                padding: 5px 20px;
+                border-radius: 5px;
+                float: right;
+                font-size: 12px;
+            }
+            .page-title {
+                padding-top: 20px;
+                padding-bottom: 30px !important;
+            }
+
+            .preloader {
+                /*display:none*/
+            }
+
+
+            header {
+                padding: 0px;
+            }
+
+            #apps_home h2 {
+                font-size: 40px;
+                color: #ffffff;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                font-family: 'Merriweather Sans', sans-serif;
+            }
+
+            .tc-breadcrumb li {
+                float: left;
+                color: #ffffff !important;
+                margin-right: 10px;
+            }
+
+            table {
+                color: #000000;
+                background: #ffffff;
+            }
+
+            .facturacion h1 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #000000;
+            }
+
+            .table>tbody>tr>td,
+            .table>tbody>tr>th,
+            .table>tfoot>tr>td,
+            .table>tfoot>tr>th,
+            .table>thead>tr>td,
+            .table>thead>tr>th {
+                border: 1px solid #ddd !important;
+                padding: 20px;
+            }
+
+            .btnPagar {
+                background: green;
+                padding: 14px 62px !important;
+                border-radius: 36px;
+                font-style: normal !important;
+                font-size: 19px;
+                border: none;
+                width: auto;
+                color: #ffffff;
+                /*font-family: 'Merriweather Sans', sans-serif;*/
+            }
+
+            .btnPagar:hover {
+                background: #028BAD;
+                color: #ffffff;
+            }
+
+            .form-control {
+                margin-bottom: 5px;
+            }
+
+            section {
+                padding-top: 0px;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+            }
+
+            .facturacion h5 {
+                color: #000;
+                background: #FEC828;
+                padding: 5px 20px;
+                border-radius: 60px;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+
+            .btnPagar {
+                padding: 10px !important;
+                margin-top: 5px;
+            }
+
+            form p {
+                font-size: 12px;
+                margin-bottom: 15px;
+            }
+
+            .both {
+                border-bottom: 1px solid #cbcbcb;
+                margin: 5px 0px;
+            }
+
+            .modal-dialog {
+                margin-top: 1.6%;
+                width: 60%;
+            }
+
+            #formularioOk li {
+                margin-bottom: 20px;
+            }
+
+            #formularioOk {
+                font-weight: 200;
+            }
+
+            #formularioOk b {
+                /*font-size:17px;*/
+                font-weight: 500;
+            }
+
+            .terminosCondiciones li {
+                margin-bottom: 15px;
+            }
+
+            .boxAtu label, .boxAtu input {
+                cursor:pointer;
+            }
+
+            .boxAtu {
+                margin-top:15px;
+                padding: 10px;
+                border: 1px solid #000000;
+                border-radius: 10px;
+            }
+
+            .wrapperWhatsapp {
+                bottom: 30px;
+            }
+        </style>
+
+
+        <style>
+            .kr-popin-modal-header-background-image {
+                background-color: #000000 !important;
+                color: #ffffff !important;
+            }
+
+            .kr-popin-shop-name span {
+                color: #ffffff !important;
+            }
+
+            .kr-popin-modal-footer {
+                display: none !important;
+                background-color: #FFCC29 !important;
+
+                /* display:none !important */
+            }
+
+            .kr-logo-mcw {
+                display: none;
+            }
+
+            .kr-header-logo {
+                left: 0px !important;
+            }
+
+            .kr-embedded[kr-popin] .kr-popin-modal-header {
+                height: 100px !important;
+            }
+
+            .kr-embedded[kr-popin] .kr-popin-modal-header span.kr-popin-shop-name {
+                margin: 40px 0 0 0 !important;
+                padding: 20px !important;
+            }
+
+            .kr-header-logo {
+                background-color: #FFCC29 !important;
+                border: none !important;
+            }
+
+            .kr-payment-button {
+                background-color: #000000 !important;
+                color: #ffffff !important;
+            }
+
+            .kr-embedded[kr-popin].kr-help-button-inner-field {
+                width: 340px !important;
+                padding-bottom:0px;
+            }
+
+            .kr-popin-button {
+                background: green !important;
+                padding: 15px 50px !important;
+                border-radius: 36px;
+                font-style: normal !important;
+                height: auto !important;
+                width: auto !important;
+                color: #ffffff !important;
+                margin-left: 10px !important;
+            }
+
+            .kr-embedded {
+                background-color: #ffffff !important;
+            }
+
+            .backClubTaxista {
+                background: url(../images/backClubTaxista.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            p {
+                margin:0px;
+            }
+            .boxFormulario1 {
+                width: 230px;
+                height: 290px;
+                right: 430px;
+                top: 110px;
+            }
+            .wrapperWhatsapp  {
+                display: none;
+            }
+            .boxFormulario .form-control {
+                font-size: 14px;
+            }
+            @media only screen and (max-width: 767px) {
+
+                section {
+                    padding-top: 0px;
+                }
+
+            }
+            @media only screen and (max-width: 499px) {
+                .wrapperFormulario {
+                    width: 122% !important;
+                    left: -41px;
+                    top: 0px !important;
+                    background-image: none;
+                    position: inherit;
+                }
+                .back14Plantas {
+                    position: relative;
+                    z-index: 100;
+                    padding-top: 40px ;
+                    margin-bottom: -65px;
+                    width: 90% !important;
+                }
+                .wrapperPlantas {
+                    padding-top: 0px !important;
+                }
+                .h-100-ruleta {
+                    height: 100%;
+                    min-height: 230px;
+                }
+                /*                #canvas {
+                                    margin-left: -50px !important;
+                                    width: 130%;
+                                    margin-top: 50px;
+                                    margin-bottom: 370px;
+                                }*/
+
+                #canvas {
+                    border-radius: 50%;
+                    border: 10px solid black; /* Borde negro */
+                }
+
+                @media only screen and (min-width: 320px) and (max-width: 479px) {
+
+                    #canvas {
+                        width: 120% !important;
+                        height: 120% !important;
+                        border: none !important;
+                        border-radius: 0px !important;
+                        margin-top: -50px !important;
+                        margin-left: -10% !important;
+                        display: block;
+                    }
+                    .modalRuletaBack {
+                        background-size: 430%;
+                    }
+
+                }
+            </style>
+
+            
+            <!-- Javascript library. Should be loaded in head section -->
+            <!--En la etiqueta kr-post-url-success Colocar el archivo de redireccion o URL (RECORDAR)-->
+
+<!--<script src="https://api.micuentaweb.pe/static/js/krypton-client/V4.0/stable/kr-payment-form.min.js" kr-public-key="93815210:publickey_VdWNmDid0YkYXP5v7fcBGkW6Ylf33K9jGDjILr02oGDjK" kr-post-url-success="http://dev.revisionestecnicasdelperu.com/pagosizipay/verificar.php?transaccion=RTP-67c8f6a43f4ae"></script>-->
+
+            <script src="../../api.micuentaweb.pe/static/js/krypton-client/V4.0/stable/kr-payment-form.min.js" kr-public-key="93815210:publickey_VdWNmDid0YkYXP5v7fcBGkW6Ylf33K9jGDjILr02oGDjK" kr-post-url-success="verificar.php?transaccion=RTP-67c8f6a43f4ae&ruletaMonto="></script>
+
+            <!-- theme and plugins. should be loaded after the javascript library -->
+            <!-- not mandatory but helps to have a nice payment form out of the box -->
+            <link rel="stylesheet" href="../../api.micuentaweb.pe/static/js/krypton-client/V4.0/ext/classic.css">
+            <script src="../../api.micuentaweb.pe/static/js/krypton-client/V4.0/ext/classic.js">
+            </script>
+        </head>
+
+        <body>
+            <!--<div class="preloader">
+    <div class="spinner">
+        <div class="bounce1">
+        </div>
+        <div class="bounce2">
+        </div>
+        <div class="bounce3">
+        </div>
+    </div>
+</div>-->
+<header id="navbar-spy" class="full-header header-5 style-2">
+    <nav id="primary-menu" class="navbar navbar-fixed-top style-1">
+        <div class="row">
+            <div class="visible-xs header1New" style="height:30px"> 
+                <div class="row rowPadding">
+                    <div class="col-xs-6">
+                        <i class="fa fa-mobile" style="margin-right: 5px; color:#000000;font-size:22px;position: relative;top: 4px;"></i>
+                        <a style="font-size: 15px;position: relative; top: 3px;"target="_blank" href="tel:989279922">989 279 922</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <img src="../images/iconWhatsApp.svg" style="width:25px; position:relative; top:-0px" />
+                        <a style="font-size: 15px;position: relative;top: 3px;" target="_blank" href="https://api.whatsapp.com/send?phone=51989279929&amp;text=Deseo%20m%C3%A1s%20informaci%C3%B3n%20.">989 279 929</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-5 col-xs-10"  >
+                <a class="logo" href="../index.html">
+                    <img class="img-responsive customLogo" src="../images/logoRTP8165.svg?v=080308" alt="RTP, revisiones tecnicas del perú" title="Revisiones Téecnicas del Perú">
+                </a>
+            </div>
+
+            <div class="col-md-7 col-xs-2" style=" background: #727376">
+                <div class="row">
+
+                    <div class=" text-right">
+                        <ul class="list-inline top-contact customTextHeader" >
+                            <li style="position: relative; top: -5px;">
+                                <span >
+                                    <div class="logosTops"  >
+                                        <!--<img src="/images/iconWhatsApp.svg" style="width:25px; position:relative; top:-0px" />-->
+                                        <i class="fa fa-mobile" style="margin-right: 5px; color:#ffffff;font-size:28px;position: relative;top: 4px;"></i>
+                                        <a href="tel:989279922">989 279 922</a>&nbsp;&nbsp;&nbsp;
+                                        <img src="../images/iconWhatsApp.svg" style="width:25px; position:relative; top:-0px" />
+                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=51989279929&amp;text=Deseo%20m%C3%A1s%20informaci%C3%B3n%20.">989 279 929</a>&nbsp;&nbsp;&nbsp;
+                                        <i class="fa fa-envelope"></i>&nbsp;
+                                        <a href="mailto:ventas@revisionestecnicasdelperu.com"> ventas@revisionestecnicasdelperu.com</a>
+                                    </div>
+                                </span>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <img class="img-responsive customRevision" src="../images/tu-revision-rapida.png" />
+
+                </div>
+            </div>
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse  " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav   customMenu">
+                    <li class="has-dropdown inicio">
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li class="has-dropdown nosotros">
+                        <a>RTP</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="../nosotros.html">Nosotros</a>
+                            </li>
+                            <li>
+                                <a href="../certificados.html">Certificados</a>
+                            </li>
+                            <li>
+                                <a href="../certificados.html">Proceso</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="has-dropdown tarifas">
+                        <a href="../tarifas.html">Tarifas</a>
+                    </li>
+                    <li class="has-dropdown plantas">
+                        <a href="../plantas.html">Plantas</a>
+                    </li>
+                    <li class="has-dropdown requisitos">
+                        <a href="../requisitos.html">Requisitos</a>
+                    </li>
+                    <li class="has-dropdown cronograma">
+                        <a href="../cronograma.html">Cronograma</a>
+                    </li>
+                    <li class="has-dropdown galeria">
+                        <a href="../galeria.html">Galería</a>
+                    </li>
+                    <li class="has-dropdown preguntas">
+                        <a href="../preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="has-dropdown contactenos">
+                        <a href="../contactenos.html">Contáctenos</a>
+                    </li>
+                    <li class="has-dropdown club-taxista">
+                        <a href="../club-taxista.html">CLUB TAXISTA</a>
+                    </li>
+                    <li class="has-dropdown contactenos">
+                        <a style="color: #ffcc29;" href="../reprogramacion.html">Reprogramación</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'});
+            var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                    '../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WGMLNDV');</script>
+    <!-- End Google Tag Manager -->
+</header>
+
+            <div id="myModal2" class="modal fade bs-example-modal-lg" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <div class="modal-body modalRuletaBack"  >
+
+                            <div class="row">
+                                <div class="col-md-5 alignY" style="height: 60vh;">
+                                    <img class="customImgRuleta img-fluid mb-1 mt-5" src="../images/ruleta-de-la-suerte.png" />
+                                    <input type="button" value="GIRAR RULETA" id='spin' class="botonGirar" style="margin-top: 50px;"  />
+                                    <input type="hidden" id="ruletaValor" name="ruletaValor" value="">
+                                </div>
+                                <div class="col-md-7">
+                                    <!--<center>-->
+                                    <canvas id="canvas" width="500" height="520" style="margin-left: -40px"></canvas>
+                                    <!--</center>-->
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="CustomTop">
+                <div class="container">
+                    <div class="row">
+                        <main class="main-content ">
+
+                                                        <section class="facturacion">
+                                <div class="container">
+                                    <BR>
+                                    <h1>DETALLES DE REGISTRO</h1>
+
+                                    <div class="col-md-12 col-xs-12">
+                                        <h5 style="">REGISTRO</h5>
+                                        <div class="row">
+
+                                            <div class="clearfix"></div>
+                                            <!--<p>Los siguientes datos serán enviados al sistema de Revisiones Técnicas del Perú para su reserva:</p>-->
+                                            <div class="row">
+
+                                                <div class="boxDatosX" style="padding: 0px 15px !important;
+                                                     margin-bottom: 10px;">
+                                                    <div class="col-md-12 text-left">
+                                                        <div class="row">
+
+                                                            <div class="col-md-4">
+                                                                <h5 style="margin-bottom:10px;
+                                                                    background:#000000;
+                                                                    color:#ffffff"><b>DATOS PERSONALES:</b></h5>
+                                                                <div class="paddingCheckOut">
+                                                                     <br>
+                                                                    <div class="both"></div>
+                                                                    <br>
+                                                                    <div class="both"></div>
+                                                                    <br>
+                                                                    <!--<div class="both"></div>-->
+                                                                    <!--Codigo:-->
+                                                                                                                                        <br>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-4">
+                                                                <h5 style="margin-bottom:10px;
+                                                                    background:#000000;
+                                                                    color:#ffffff"><b>DESCRIPCIÓN:</b></h5>
+                                                                <div class="paddingCheckOut">
+                                                                    <b> </b><br>
+                                                                    <span style="font-size:12px;">
+                                                                                                                                            </span> <br>
+                                                                    <div class="both"></div>
+                                                                    <b>TIPO DE TRANSPORTE:</b> <br>
+                                                                                                                                        <div class="both"></div>
+
+                                                                    <b>TIPO DE VEHÍCULO: </b><br>
+                                                                                                                                                                                                            <div class="both"></div>
+
+                                                                    <b>PLACA:</b><br>
+                                                                                                                                        <div class="both"></div>
+
+                                                                    <!--<b>TIPO DE COMBUSTIBLE:</b><br>-->
+                                                                                                                                        <!--<div class="both"></div>-->
+                                                                    <b>ATENCIÓN: </b> <br>
+                                                                    Fecha:                                                                     <!--<div class="both"></div>-->
+                                                                    <!--<b>TURNO: </b><br>-->
+                                                                     <br>
+                                                                    <!--<div class="both"></div>-->
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-4">
+                                                                <h5 style="margin-bottom:10px;
+                                                                    background:#000000;
+                                                                    color:#ffffff"><b>MONTO A PAGAR</b></h5>
+                                                                <div class="paddingCheckOut">
+                                                                    <div class="boxDatosXX" style="text-align: right">
+                                                                        <span class="text-left" style="font-size:20px; ">
+                                                                                                                                                            <div class="boxRegularPrecio" style="text-decoration: line-through;                                                                                     font-size: 15px;
+                                                                                     text-align: right;">
+                                                                                    Precio regular: &nbsp;&nbsp;&nbsp;S/ 0.00                                                                                </div>
+                                                                                <img class="img-responsive img79Soles" style="display:none;
+                                                                                     margin-bottom:20px " src="../images/79soles.jpg" />
+                                                                                     <hr style="margin: 5px 0px"><div class="clearfix"></div><span style='font-size: 15px'>Descuento web S/ -10.00 </span><br><hr style="margin: 5px 0px"><span style="font-weight: bolder; font-size: 18px">Total: S/ -10.00</span><hr style="margin: 5px 0px">
+                                                                            <div style=" font-weight: bolder;
+                                                                                 font-size: 15px;
+                                                                                 text-align: right;">
+
+                                                                                Fecha de Registro: 05/03/2025 <br>
+                                                                                N° de Registro: RTP-67c8f6a43f4ae                                                                            </div>
+                                                                        </span>
+                                                                    </div>
+                                                                                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                

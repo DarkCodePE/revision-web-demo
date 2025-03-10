@@ -1,0 +1,381 @@
+.ch-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    cursor: default;
+}
+
+.ch-info-wrap{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
+    top: 0px;
+    left: 0px;
+    background:rgba(255,255,255,0.5);
+    /*background: #f9f9f9 url(../images/bg.jpg);*/
+    box-shadow: 
+        0 0 0 13px rgba(253,204,41,1), 
+        inset 0 0 13px rgba(215,165,0,6);
+
+}
+
+.ch-info{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    left: -5px;
+    top: -5px;
+}
+
+.ch-info > div {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-position: center center;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.ch-info .ch-info-back {
+    -webkit-transform: rotate3d(0,1,0,180deg);
+    -moz-transform: rotate3d(0,1,0,180deg);
+    -o-transform: rotate3d(0,1,0,180deg);
+    -ms-transform: rotate3d(0,1,0,180deg);
+    transform: rotate3d(0,1,0,180deg);
+
+    background: #fdcc29;
+}
+
+.ch-img-1 { 
+    background-image: url(../../../images/personal/ate1.jpg);
+}
+
+.ch-img-2 { 
+    background-image: url(../../../images/personal/ate2.jpg);
+}
+
+.ch-img-3 { 
+    background-image: url(../../../images/personal/ate3.jpg);
+}
+
+.ch-img-4 { 
+    background-image: url(../../../images/personal/ate4.jpg);
+}
+.ch-img-5 { 
+    background-image: url(../../../images/personal/ate5.jpg);
+}
+.ch-img-6 { 
+    background-image: url(../../../images/personal/ate6.jpg);
+}
+.ch-img-7 { 
+    background-image: url(../../../images/personal/ate7.jpg);
+}
+.ch-img-77 { 
+    background-image: url(../../../images/personal/ate77.jpg);
+}
+.ch-img-88 { 
+    background-image: url(../../../images/personal/gn.jpg);
+}
+
+.ch-img-8 { 
+    background-image: url(../../../images/personal/atocongo1.jpg);
+}
+.ch-img-9 { 
+    background-image: url(../../../images/personal/atocongo2.jpg);
+}
+.ch-img-10 { 
+    background-image: url(../../../images/personal/atocongo3.jpg);
+}
+.ch-img-11 { 
+    background-image: url(../../../images/personal/atocongo4.jpg);
+}
+.ch-img-12 { 
+    background-image: url(../../../images/personal/atocongo5.jpg);
+}
+.ch-img-13 { 
+    background-image: url(../../../images/personal/atocongo6.jpg);
+}
+.ch-img-14 { 
+    background-image: url(../../../images/personal/atocongo7.jpg);
+}
+.ch-img-15 { 
+    background-image: url(../../../images/personal/atocongo8.jpg);
+}
+.ch-img-16 { 
+    background-image: url(../../../images/personal/callao1-1.jpg);
+}
+.ch-img-17 { 
+    background-image: url(../../../images/personal/callao1-2.jpg);
+}
+.ch-img-18 { 
+    background-image: url(../../../images/personal/callao1-3.jpg);
+}
+.ch-img-19 { 
+    background-image: url(../../../images/personal/callao1-4.jpg);
+}
+.ch-img-20 { 
+    background-image: url(../../../images/personal/callao1-5.jpg);
+}
+.ch-img-21 { 
+    background-image: url(../../../images/personal/callao1-6.jpg);
+}
+.ch-img-22 { 
+    background-image: url(../../../images/personal/callao1-7.jpg);
+}
+.ch-img-23 { 
+    background-image: url(../../../images/personal/callao1-8.jpg);
+}
+.ch-img-24 { 
+    background-image: url(../../../images/personal/callao1-9.jpg);
+}
+.ch-img-25 { 
+    background-image: url(../../../images/personal/callao1-10.jpg);
+}
+
+.ch-img-26 { 
+    background-image: url(../../../images/personal/callao2-1.jpg);
+}
+.ch-img-27 { 
+    background-image: url(../../../images/personal/callao2-2.jpg);
+}
+.ch-img-28 { 
+    background-image: url(../../../images/personal/callao2-3.jpg);
+}
+.ch-img-29 { 
+    background-image: url(../../../images/personal/callao2-4.jpg);
+}
+.ch-img-30 { 
+    background-image: url(../../../images/personal/callao2-5.jpg);
+}
+.ch-img-31 { 
+    background-image: url(../../../images/personal/callao2-6.jpg);
+}
+.ch-img-32 { 
+    background-image: url(../../../images/personal/callao2-7.jpg);
+}
+.ch-img-33 { 
+    background-image: url(../../../images/personal/callao2-8.jpg);
+}
+
+
+.ch-img-34 { 
+    background-image: url(../../../images/personal/carabayllo1.jpg);
+}
+.ch-img-35 { 
+    background-image: url(../../../images/personal/carabayllo2.jpg);
+}
+.ch-img-36 { 
+    background-image: url(../../../images/personal/carabayllo3.jpg);
+}
+.ch-img-37 { 
+    background-image: url(../../../images/personal/carabayllo4.jpg);
+}
+.ch-img-38 { 
+    background-image: url(../../../images/personal/carabayllo5.jpg);
+}
+.ch-img-39 { 
+    background-image: url(../../../images/personal/carabayllo6.jpg);
+}
+.ch-img-40 { 
+    background-image: url(../../../images/personal/carabayllo7.jpg);
+}
+
+.ch-img-41 { 
+    background-image: url(../../../images/personal/chosica1.jpg);
+}
+.ch-img-42 { 
+    background-image: url(../../../images/personal/chosica2.jpg);
+}
+.ch-img-43 { 
+    background-image: url(../../../images/personal/chosica3.jpg);
+}
+.ch-img-44 { 
+    background-image: url(../../../images/personal/chosica4.jpg);
+}
+.ch-img-45 { 
+    background-image: url(../../../images/personal/chosica5.jpg);
+}
+.ch-img-46 { 
+    background-image: url(../../../images/personal/chosica6.jpg);
+}
+.ch-img-47 { 
+    background-image: url(../../../images/personal/chosica7.jpg);
+}
+
+.ch-img-48 { 
+    background-image: url(../../../images/personal/jicamarca1.jpg);
+}
+.ch-img-49 { 
+    background-image: url(../../../images/personal/jicamarca2.jpg);
+}
+.ch-img-50 { 
+    background-image: url(../../../images/personal/jicamarca3.jpg);
+}
+.ch-img-51 { 
+    background-image: url(../../../images/personal/jicamarca4.jpg);
+}
+.ch-img-52 { 
+    background-image: url(../../../images/personal/jicamarca5.jpg);
+}
+.ch-img-53 { 
+    background-image: url(../../../images/personal/jicamarca6.jpg);
+}
+.ch-img-54 { 
+    background-image: url(../../../images/personal/jicamarca7.jpg);
+}
+.ch-img-55 { 
+    background-image: url(../../../images/personal/jicamarca8.jpg);
+}
+.ch-img-56 { 
+    background-image: url(../../../images/personal/jicamarca9.jpg);
+}
+.ch-img-57 { 
+    background-image: url(../../../images/personal/jicamarca10.jpg);
+}
+
+.ch-img-58 { 
+    background-image: url(../../../images/personal/sanluis1.jpg);
+}
+.ch-img-59 { 
+    background-image: url(../../../images/personal/sanluis2.jpg);
+}
+.ch-img-60{ 
+    background-image: url(../../../images/personal/sanluis3.jpg);
+}
+.ch-img-61 { 
+    background-image: url(../../../images/personal/sanluis4.jpg);
+}
+.ch-img-62 { 
+    background-image: url(../../../images/personal/sanluis5.jpg);
+}
+.ch-img-63 { 
+    background-image: url(../../../images/personal/sanluis6.jpg);
+}
+.ch-img-64 { 
+    background-image: url(../../../images/personal/sanluis7.jpg);
+}
+.ch-img-65 { 
+    background-image: url(../../../images/personal/sanluis8.jpg);
+}
+
+.ch-img-66 { 
+    background-image: url(../../../images/personal/sanmiguel1.jpg);
+}
+.ch-img-67 { 
+    background-image: url(../../../images/personal/sanmiguel2.jpg);
+}
+.ch-img-68 { 
+    background-image: url(../../../images/personal/sanmiguel3.jpg);
+}
+.ch-img-69 { 
+    background-image: url(../../../images/personal/sanmiguel4.jpg);
+}
+
+.ch-img-70 { 
+    background-image: url(../../../images/personal/surco1.jpg);
+}
+.ch-img-71 { 
+    background-image: url(../../../images/personal/surco2.jpg);
+}
+.ch-img-72 { 
+    background-image: url(../../../images/personal/surco3.jpg);
+}
+.ch-img-73 { 
+    background-image: url(../../../images/personal/surco4.jpg);
+}
+.ch-img-74 { 
+    background-image: url(../../../images/personal/surco5.jpg);
+}
+.ch-img-75 { 
+    background-image: url(../../../images/personal/surco6.jpg);
+}
+
+
+.ch-info h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0 0px;
+    padding: 65px 0px 3px 0;
+}
+
+.ch-info p {
+    padding: 2px 5px 2px;
+    margin: 0px 15px;
+    font-size: 15px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.ch-info span {
+    padding: 2px 5px 2px;
+    margin: 0px 15px;
+    font-size: 15px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+    display: block;
+    color: #fff;
+    color: rgba(255,255,255,0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+    color: #fff222;
+    color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover .ch-info-wrap {
+    box-shadow: 
+        0 0 0 0 rgba(255,255,255,0.8), 
+        inset 0 0 3px rgba(115,114, 23, 0.8);
+}
+
+.ch-item:hover .ch-info {
+    -webkit-transform: rotate3d(0,1,0,-180deg);
+    -moz-transform: rotate3d(0,1,0,-180deg);
+    -o-transform: rotate3d(0,1,0,-180deg);
+    -ms-transform: rotate3d(0,1,0,-180deg);
+    transform: rotate3d(0,1,0,-180deg);
+}

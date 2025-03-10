@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Chat Widget de Revisión Técnica</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        .control-panel {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            padding: 10px 15px;
+            background-color: #4f46e5;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        button:hover {
+            background-color: #4338ca;
+        }
+        
+        .message-input {
+            display: flex;
+            gap: 10px;
+        }
+        
+        input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .content {
+            min-height: 500px;
+        }
+        
+        .instructions {
+            background-color: #f0f9ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prueba del Widget de Chat de Revisión Técnica</h1>
+        <p>Esta página te permite probar la funcionalidad de tu widget de chat embebido</p>
+    </header>
+    
+    <main>
+        <section class="control-panel">
+            <h2>Panel de Control</h2>
+            <div class="button-group">
+                <button onclick="RTChatWidget.open()">Abrir Chat</button>
+                <button onclick="RTChatWidget.close()">Cerrar Chat</button>
+                <button onclick="RTChatWidget.toggle()">Alternar Chat</button>
+            </div>
+            
+            <div class="message-input">
+                <input type="text" id="messageInput" placeholder="Escribe un mensaje para enviar...">
+                <button onclick="sendMessage()">Enviar Mensaje</button>
+            </div>
+        </section>
+        
+        <section class="content">
+            <h2>Contenido de Prueba</h2>
+            <p>Este es un contenido de ejemplo para simular un sitio web real. El widget de chat debería aparecer en la esquina inferior derecha de la pantalla.</p>
+            
+            <p>Puedes usar los botones de control de arriba para probar la funcionalidad de tu widget.</p>
+            
+            <div class="instructions">
+                <h3>Instrucciones:</h3>
+                <ol>
+                    <li>Primero, asegúrate de que tu widget de chat esté funcionando correctamente en Vercel.</li>
+                    <li>En este HTML, verifica que la URL en el script sea correcta.</li>
+                    <li>Usa los botones de control para probar diferentes acciones.</li>
+                    <li>Comprueba que el chat se expande y contrae correctamente.</li>
+                    <li>Verifica que puedes enviar mensajes programáticamente.</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        function sendMessage() {
+            const message = document.getElementById('messageInput').value;
+            if (message.trim() !== '') {
+                RTChatWidget.sendMessage(message);
+                document.getElementById('messageInput').value = '';
+            }
+        }
+        
+        // Escuchar mensajes del widget
+        window.addEventListener('message', function(event) {
+            // Verifica que el origen es el esperado
+            const expectedOrigin = 'https://chat-interface-nine.vercel.app';
+            if (event.origin === expectedOrigin) {
+                console.log('Mensaje recibido del chat widget:', event.data);
+                
+                // Puedes realizar acciones basadas en los mensajes recibidos
+                if (event.data.type === 'NEW_MESSAGE') {
+                    console.log('Nuevo mensaje en el chat:', event.data.data);
+                }
+                if (event.data.type === 'CHAT_READY') {
+                    console.log('El chat está listo');
+                }
+            }
+        });
+    </script>
+    
+    <!-- Incluir el script del widget de chat -->
+    <script 
+        src="https://chat-interface-nine.vercel.app/embed.js" 
+        data-chat-api="https://chat.orlandokuan.org/chat"
+        data-client-id="ID_CLIENTE_PRUEBA"
+        data-auto-open="false">
+    </script>
+</body>
+</html>
